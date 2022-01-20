@@ -1,0 +1,78 @@
+
+header div.mobil-menu {
+    display: none;
+}
+
+@media screen and (max-width: 400px) {
+
+
+    header div {
+        transition: 2s all;
+
+        display: none;
+    }
+
+    header div.logo {
+        transition: 2s all;
+        display: block;
+    }
+
+    header div.mobil-menu {
+        display: block;
+        cursor: pointer;
+        border: 1px darkgrey solid;
+        margin-bottom: 4px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        width: 20%;
+        padding: 4px 0 0 0;
+        font-size: inherit;
+    }
+
+    header div.mobil-menu:hover {
+        background: darkgrey;
+        border: 1px aliceblue solid;
+        color: aliceblue;
+
+
+    }
+
+}
+
+.extra-menus {
+    background: darkgrey;
+    width: 100%;
+    min-height: 122%;
+    position: absolute;
+    top: 0;
+    display: flex;
+}
+
+.extra-menus .content {
+
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+}
+
+.extra-menus .close {
+    background: aliceblue;
+    color: black;
+    height: 50px;
+}
+
+.extra-menus .mobil-menus {
+    width: 100%;
+    background: aliceblue;
+    display: flex;
+    flex-direction: column;
+    gap: 10px 0;
+    padding: 6px 0 6px 0;
+}
+.extra-menus .mobil-menus button{
+    width: 100%;
+}

@@ -1,0 +1,64 @@
+@import url('reset.css');
+@import url('mobil.css');
+
+.btn-darkgrey {
+    color: aliceblue;
+    background-color: darkgrey;
+    border-radius: 50px;
+    height: 1.5em;
+    width: 4em;
+    font-size: large;
+    font-weight: 600;
+    margin: 14px auto;
+}
+.btn-darkgrey button:hover {
+    background-color: #8b8a8a;
+}
+
+.warp {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    width: 100%;
+    height: 40px;
+    border-bottom: darkgrey 1px solid;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 6px 0 6px;
+}
+
+header div {
+    margin: 1.75rem 0 0 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-shrink: 0;
+}
+
+header div.logo {
+    width: 100px;
+}
+
+header div.logo img {
+    width: 100px;
+
+}
+
+main {
+    width: 100%;
+    flex: 1;
+    padding: 6px;
+    min-height: 100%;
+}
+
+footer {
+    border-top: darkgrey 1px solid;
+    height: 40px;
+    width: 100%;
+    flex-shrink: 0;
+}
