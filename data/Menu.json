@@ -1,0 +1,14 @@
+export class Menu{
+}export class Menu{
+}{
+  "menus": {
+    "title": "commonjs",
+    "target": "es5",
+    "sourceMap": true
+  },
+  "menus-1": {
+    "title": "commonjs-1",
+    "target": "es5-1",
+    "sourceMap": true
+  }
+}

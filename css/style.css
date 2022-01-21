@@ -11,6 +11,7 @@
     font-weight: 600;
     margin: 14px auto;
 }
+
 .btn-darkgrey button:hover {
     background-color: #8b8a8a;
 }
@@ -41,11 +42,75 @@ header div {
 }
 
 header div.logo {
-    width: 100px;
+    min-width: 40%
 }
 
 header div.logo img {
     width: 100px;
+}
+
+header .search-area {
+    margin-bottom: 1rem;
+    transition: 2s;
+    width: 10%;
+    display: flex;
+
+}
+
+header .search-area:hover {
+    transition: 2s;
+    width: 30%;
+}
+
+header .search-area label svg {
+    width: 10px;
+    margin: 2px;
+}
+
+header .search-area:hover label svg {
+    transition: 2s;
+    fill: aliceblue;
+}
+
+header .search-area label {
+    width: 14px;
+    height: 14px;
+    background: darkgrey;
+    border-radius: 4px;
+}
+
+header .search-area:hover label {
+    transition: 2s;
+    width: 14px;
+    height: 14px;
+    background: darkgrey;
+    border-radius: 0 4px 4px 0;
+}
+
+header .search-area input {
+    transition: 2s;
+    width: 0;
+    height: 14px;
+    border-radius: 4px 0 0 4px;
+    padding: 0 4px 0 4px;
+    font-size: 8px;
+    color: aliceblue;
+}
+
+header .search-area:hover input {
+    transition: 2s;
+    width: 90%;
+    background: darkgrey;
+}
+
+header .search-area:active input:focus {
+    transition: 2s;
+    width: 90%;
+}
+
+header .desktop-menus {
+
+    width: 20%;
 
 }
 

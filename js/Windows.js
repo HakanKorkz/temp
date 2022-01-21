@@ -1,7 +1,10 @@
    function Windows() {
+    const search=document.querySelector('.search-area')
        window.addEventListener('resize', () => {
            if (window.outerWidth <= 400) {
-               console.log('devam edilecek...')
+               search.classList.add('hidden')
+           } else {
+               search.classList.remove('hidden')
            }
        });
    }
